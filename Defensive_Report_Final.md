@@ -28,7 +28,6 @@ The following machines were identified on the network:
   - **192.168.1.105**:
 
 ### Description of Targets
-_TODO: Answer the questions below._
 
 The target of this attack was: `Target 1` 192.168.1.110
 
@@ -39,7 +38,6 @@ Target 1 is an Apache web server and has SSH enabled, so ports 80 and 22 are pos
 Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below:
 
 #### Excessive HTTP Errors
-_TODO: Replace `Alert 1` with the name of the alert._
 
 Excessive HTTP Errors is implemented as follows:
   - **WHEN count() GROUPED OVER top 5 'http.response.status_code'**
